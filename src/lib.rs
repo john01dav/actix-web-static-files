@@ -361,3 +361,5 @@ mod r#impl;
 pub use r#impl::{
     Resource, ResourceFiles, ResourceFilesInner, ResourceFilesService, UriSegmentError,
 };
+pub use include_dir::{include_dir, Dir};
+pub use fs_macro::build_hashmap_from_included_dir;
