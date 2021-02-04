@@ -1,6 +1,5 @@
 [package]
-authors = ["Alexander Korolev <kilork@yandex.ru>"]
-build = "build.rs"
+authors = ["Alexander Korolev <kilork@yandex.ru>", "David Johnson <john01dav@gmail.com>"]
 categories = ["network-programming",
               "asynchronous",
               "web-programming::http-server"]
@@ -27,6 +26,8 @@ derive_more = "0.99.5"
 futures = { version = "0.3", default-features = false }
 mime_guess = "2.0"
 path-slash = "0.1"
+include_dir = "0.6.0"
+md5 = "0.7.0"
 
 [build-dependencies]
 actix-web = { version = "3.0", default-features = false }

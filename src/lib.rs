@@ -356,7 +356,9 @@ You can check complete example [Angular Router Sample](https://github.com/kilork
 */
 
 mod r#impl;
+mod fs_macro;
+
 pub use r#impl::{
-    generate_resources, npm_resource_dir, resource_dir, NpmBuild, Resource, ResourceDir,
+    Resource,
     ResourceFiles, ResourceFilesInner, ResourceFilesService, UriSegmentError,
 };
