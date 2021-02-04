@@ -355,10 +355,9 @@ Remember to place you static resources route after all other routes.
 You can check complete example [Angular Router Sample](https://github.com/kilork/actix-web-static-files-example-angular-router).
 */
 
-mod r#impl;
 mod fs_macro;
+mod r#impl;
 
 pub use r#impl::{
-    Resource,
-    ResourceFiles, ResourceFilesInner, ResourceFilesService, UriSegmentError,
+    Resource, ResourceFiles, ResourceFilesInner, ResourceFilesService, UriSegmentError,
 };

@@ -11,7 +11,7 @@ use std::{
     collections::HashMap,
     ops::Deref,
     rc::Rc,
-    task::{Context, Poll}
+    task::{Context, Poll},
 };
 
 /// Static files resource.
